@@ -19,4 +19,6 @@ const userSlice = createSlice({
 
 export const { fetchUserInfo } = userSlice.actions
 
+export const user = state => state.user.user_info
+
 export default userSlice.reducer
