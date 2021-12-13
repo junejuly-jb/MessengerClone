@@ -1,0 +1,69 @@
+.main{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.title__container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.icon{
+     padding-right: 10px;
+}
+
+.title1{
+     font-size: 25px;
+     font-weight: bold;
+}
+
+.title2{
+     font-size: 25px;
+}
+
+.btn{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     padding: 5px 0px;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+.btnIcon{
+     width: 20%;
+}
+
+.button__container{
+     margin-top: 30px;
+}
+
+.google{
+     border: 1px solid #DE5246;
+     background: none;
+     transition: 0.3s;
+     fill: #DE5246;
+}
+
+.facebook{
+     border: 1px solid #1E90FF;
+     background: none;
+     fill: #1E90FF;
+     transition: 0.3s;
+}
+
+.google:hover{
+     background: #DE5246;
+     color: white;
+     transition: 0.3s;
+     fill: white;
+}
+
+.facebook:hover{
+     background: #1E90FF;
+     color: white;
+     transition: 0.3s;
+     fill: white;
+}
